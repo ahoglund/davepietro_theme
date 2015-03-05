@@ -1,0 +1,14 @@
+name = davepietro
+description = theme for davepietro.com.
+core = 7.x
+stylesheets[all][] = style.css
+regions[header] = Header
+regions[navigation] = Navigation
+regions[content] = Content
+regions[content-col1] = Content Column 1
+regions[content-col2] = Content Column 2
+regions[highlighted] = Highlighted
+regions[footer] = Footer
+regions[footer-col1] = Footer Column 1
+regions[footer-col2] = Footer Column 2
+regions[footer-col3] = Footer Column 3
