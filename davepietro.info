@@ -2,6 +2,7 @@ name = davepietro
 description = theme for davepietro.com.
 core = 7.x
 stylesheets[all][] = style.css
+stylesheets[all][] = nav.css
 regions[header] = Header
 regions[navigation] = Navigation
 regions[content] = Content

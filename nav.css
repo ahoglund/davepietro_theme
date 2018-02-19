@@ -1,0 +1,132 @@
+#navigation-wrapper {
+  width: 100%;
+}
+
+#navigation {
+  font-size: 16px;
+
+}
+
+#navigaton ul {
+  margin-left: 10px;
+}
+
+#navigation ul.nice-menu li.menuparent, #navigation ul.nice-menu li li.menuparent {
+  background-image: none;
+}
+
+#navigation ul.nice-menu li a {
+  text-decoration: none;
+  padding: .8em 1.9em .8em 1.9em;
+  color: #ffaa00;
+  text-transform: uppercase;
+}
+
+#navigation ul.nice-menu li.first, #navigation ul.nice-menu li.first a {
+  padding-left: 0px;
+}
+
+#navigation ul.nice-menu ul li.first, #navigation ul.nice-menu ul li.first a {
+  padding-left: .94em;
+}
+
+#navigation ul.nice-menu li a:hover, #navigation ul.nice-menu li a.active {
+  color: #f3bd50;
+}
+
+#navigation ul.nice-menu, ul.nice-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: #000;
+}
+
+#navigation ul.nice-menu li {
+  border: 0;
+  border-top: 0;
+  float: left; /* LTR */
+  background-color: transparent;
+}
+
+#navigation ul.nice-menu li.first {
+  padding-left: 0;
+}
+#navigation ul.nice-menu a {
+  padding: 6px 1.7em 6px 1.7em;
+  color: #ffaa00;
+}
+
+#navigation ul.nice-menu a:hover {
+   background-color: #171717;
+   color: #f3bd50;
+}
+
+#navigation ul.nice-menu ul {
+  top: 14px;
+  left: -1px; /* LTR */
+  border: 0;
+  margin-right: 0; /* LTR */
+}
+
+#navigation ul.nice-menu ul li {
+  width: 12.5em;
+  background-color: #000;
+}
+#navigation ul.nice-menu ul li {
+  border-left: 1px solid #464444;
+  border-right: 1px solid #464444;
+}
+#navigation ul.nice-menu ul li.last {
+  border-bottom: 1px solid #464444;
+}
+
+#navigation ul.nice-menu ul {
+  margin-top: 1em;
+}
+
+#navigation ul.nice-menu-down {
+  float: left; /* LTR */
+  border: 0;
+}
+
+#navigation ul.nice-menu-down li {
+  border-top: 0px;
+}
+
+#navigation ul.nice-menu-down li li {
+  border-top: 0;
+}
+
+#navigation ul.nice-menu-down ul {
+  left: 0; /* LTR */
+}
+
+#navigation ul.nice-menu-down ul li {
+  clear: both;
+}
+
+#navigation ul.nice-menu-down li ul li ul {
+  left: 12.5em; /* LTR */
+  top: -1px;
+}
+
+#navigation ul.nice-menu-down .menuparent a {
+
+}
+
+#navigation ul.nice-menu-down li.menuparent {
+  background: none; /* LTR */
+}
+
+#navigation ul.nice-menu-down li.menuparent:hover {
+  background: none;
+  }
+
+#navigation ul.nice-menu-down li li.menuparent {
+  background: none; /* LTR */
+}
+
+#navigation ul.nice-menu-down li li.menuparent:hover {
+  background: none;
+}
