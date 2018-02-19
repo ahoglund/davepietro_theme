@@ -94,6 +94,7 @@ h1#site-name a  {
 
 table {
   width: 100%; 
+  max-width: 100%;
   margin: 0px;
   margin-bottom: 20px;
 }
@@ -113,6 +114,11 @@ table tr td {
 table tr td img {
   width: 100% !important;
   height: auto !important;
+}
+
+table tr td img.file-icon {
+  width: 16px !important;
+  height: 16px !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -241,12 +247,6 @@ th.views-field-field-group {
 #header h1#site-name { padding: 0px; padding-top: 10px; }
 
 
-#navigation-wrapper { 
-  border-bottom: 1px solid #464444; 
-  border-top: 1px solid #464444;
-  height: 30px;
-}
-
 #header, #footer {
   background-color: #171717;
 }
@@ -354,6 +354,12 @@ th.views-field-field-group {
   border-bottom: 1px solid #464444;
   background-color: #171717;
 }
+
+#content-col1 img, #content-col2 img {
+  width: 100% !important;
+  height: auto !important;
+}
+
 
 @media only screen and (min-width: 768px) {
   #banner {
@@ -905,16 +911,22 @@ table caption {
 /* Hack the audio.js player
 ----------------------------------------------------------------------------------------------------*/
 .audiojs, .audiojs-playlist {
-  max-width: 420px;
 }
+
+.audiojs-default .audiojs {
+  width: 100%;
+}
+
 .audiojs-default ol.audiojs-playlist {
   background: #171717;
   border-top: 1px solid #464444;
+  width: 100%;
 }
 
 .audiojs-default ol.audiojs-playlist li {
   border-bottom: 1px solid #464444;
 }
+
 .audiojs-default ol.audiojs-playlist li.playing {
   background: #202020;
 }

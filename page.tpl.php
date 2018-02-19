@@ -105,7 +105,6 @@
     <?php #if ($main_menu || $secondary_menu): ?>
       <div id="navigation-wrapper">
       <div id="navigation"><div class="section grid_12">
-        <i class="fas fa-bars"></i>
         <?php print render($page['navigation']); ?>
       </div></div></div> <!-- /.section, /#navigation, /#navigation-wrapper -->
     <?php #endif; ?>
