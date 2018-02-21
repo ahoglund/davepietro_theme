@@ -148,3 +148,29 @@
     margin-top: 2.34em;
   }
 }
+
+.responsive-menus.responsified {
+  margin-bottom: 10px;
+}
+
+.responsive-menus.responsified span.toggler {
+  background-color: black;
+  color: #ffaa00;
+  padding: 0.4em;
+  border-bottom: 1px solid #464444; 
+  border-top: 1px solid #464444;
+}
+
+.responsive-menus.responsified.responsive-toggled span.toggler {
+  border-bottom: 1px solid #464444; 
+}
+
+.responsive-menus.responsified .responsive-menus-simple li a {
+  background-color: black;
+  color: #ffaa00;
+  border-bottom: 1px solid #464444; 
+}
+
+.responsive-menus.responsified .responsive-menus-simple li ul li a:before {
+  content: "- "
+}
